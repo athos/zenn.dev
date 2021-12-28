@@ -6,6 +6,8 @@ topics: ["clojure", "cli", "help"]
 published: true
 ---
 
+これは[Clojureアドベントカレンダー](https://qiita.com/advent-calendar/2021/clojure) 8日目の記事です。
+
 ここ最近、Clojure CLIには`-X:deps`や`-Ttools`などのオプションを通じて使える機能がいろいろ追加されています。しかし、これらの機能のヘルプは`clj --help`には表示されないので、使い方やそもそもどういう機能があるのかがよく分からなかったりします。
 
 ここでは、そういった場合にコマンドラインからサクッと機能や使い方を調べられる `help/dir`, `help/doc`の機能について紹介します。
